@@ -16,7 +16,7 @@ export const helloWorld = defineFunction({
   entry: './handler.ts',
   
   // 実行時環境の設定
-  runtime: 'nodejs18.x',
+  runtime: 18,
   
   // タイムアウト設定（秒）
   timeoutSeconds: 30,
