@@ -1,0 +1,26 @@
+{
+  "name": "todo-processor-function",
+  "version": "1.0.0",
+  "description": "Todo処理Lambda関数",
+  "type": "module",
+  "main": "handler.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.145"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "aws",
+    "lambda", 
+    "amplify",
+    "todo",
+    "crud"
+  ],
+  "author": "システム管理者",
+  "license": "MIT"
+}
