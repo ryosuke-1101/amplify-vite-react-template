@@ -1,0 +1,25 @@
+{
+  "name": "hello-world-function",
+  "version": "1.0.0",
+  "description": "Hello World Lambda関数",
+  "type": "module",
+  "main": "handler.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.145"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "aws",
+    "lambda", 
+    "amplify",
+    "hello-world"
+  ],
+  "author": "システム管理者",
+  "license": "MIT"
+}
